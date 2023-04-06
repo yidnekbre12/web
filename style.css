@@ -1,0 +1,153 @@
+body{
+   background-image: url(https://estadventure.com/wp-content/uploads/2017/09/9-Ras-Dashen-Simien-Mountains-Ethiopia-e1519491540582.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   width:100%;
+   height:100%;
+  
+  }
+ 
+
+  /*header*/
+  .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+  }
+  
+  .icon{
+    width: 100px;
+    height: 50px;
+    position: absolute; 
+    top: 0; 
+    left: 0 ;
+    margin: 10px;
+   
+  }
+ 
+  
+  /*navigatio*/
+  nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    
+  
+  }
+  nav a{
+    padding: 10px;
+    background-color: gray;
+    border-radius:10px;
+    color: black;
+    background:linear-gradient( green,yellow,red);
+    
+  }
+  nav a:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  nav a:after{
+    background-color: red;
+  }
+  
+
+
+  /*about axum fasiledes and jegol*/
+  .hts, .fasiledes-history, .jegol-history{
+    border: 2px solid black;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .axum, .jegol, .fasiledes{
+    width: 400px
+  }
+  .text{
+    border: 2px solid black;
+    background-color: white;
+  }
+  .axum-title{
+    text-transform: uppercase;
+  }
+  .axum-text{
+    background-color: white;
+  }
+
+
+
+  /*footer*/
+  .foot{
+    background-color: #2b2b2b;
+    border: 2px solid black;
+    text-align: center;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    height: 5rem;
+  }
+ .foot a{
+    border: solid black;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+ }
+ .foot a:hover{
+    background-color: #fff;
+    color: black;
+ }
+
+
+ /*ethiopia page home*/
+ .ethiopia{
+    border: 2px solid black;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: auto;
+    margin-top: 60px;
+  }
+ .ethiopia-img,.fasil-img,.minilik-img{
+    width: 400px;
+ }
+ .ethiopia-title{
+    text-transform: uppercase;
+ }
+ .homo{
+    width: 200px;
+ }
+
+
+ /*kings page*/
+.fasil,.minilik{
+    border: 2px solid black;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: auto;
+    margin-top: 60px;
+}
+.fasil-img,.minilik-img{
+    width: 400px;
+}
+.minilik-img2{
+    width: 200px;
+}
+.fasil-title,.minilik-title{
+    text-transform: uppercase;
+}
